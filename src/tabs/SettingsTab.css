@@ -1,0 +1,60 @@
+#settings-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#settings-table tr {
+  border-bottom: 1px solid #eee;
+}
+
+#settings-table td {
+  padding: 12px 8px;
+  vertical-align: middle;
+}
+
+#settings-table td:last-child {
+  text-align: right;
+  width: 40px;
+}
+
+.setting-label {
+  margin: 0;
+  font-size: 14px;
+  color: #111;
+  font-weight: 500;
+}
+
+.setting-desc {
+  margin: 3px 0 0;
+  font-size: 12px;
+  color: #888;
+}
+
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  accent-color: blueviolet;
+}
+
+#settings-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+#saved-msg {
+  font-size: 13px;
+  color: green;
+}
+
+#save-settings-btn {
+  padding: 8px 16px;
+  background: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
